@@ -1,0 +1,73 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بوابة مدرسة البغدادي</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body, html {
+height: 100%;
+}
+.portal-container {
+background-image: url('IMG_0584.jpeg');
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+}
+.portal-card {
+background: rgba(255, 255, 255, 0.9);
+padding: 40px;
+border-radius: 15px;
+text-align: center;
+width: 300px;
+box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+transition: transform 0.3s ease;
+}
+.portal-card:hover {
+transform: translateY(-10px);
+}
+.portal-card h2 {
+margin-bottom: 20px;
+color: #333;
+}
+.portal-card a {
+display: inline-block;
+padding: 12px 24px;
+background-color: #0056b3;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="portal-container">
+<div class="portal-card">
+<h2>بوابة الطالب</h2>
+<a href="#">دخول</a>
+</div>
+<div class="portal-card">
+<h2>بوابة المدرس</h2>
+<a href="#">دخول</a>
+</div>
+<div class="portal-card">
+<h2>بوابة الإدارة</h2>
+<a href="#">دخول</a>
+</div>
+</div>
+</body>
+</html>
